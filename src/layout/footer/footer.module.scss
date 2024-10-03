@@ -1,0 +1,23 @@
+$footer-bg-color: #282c34;
+$footer-text-color: white;
+$footer-link-color: #61dafb;
+
+footer {
+  background-color: $footer-bg-color;
+  padding: 20px;
+  color: $footer-text-color;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $footer-link-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

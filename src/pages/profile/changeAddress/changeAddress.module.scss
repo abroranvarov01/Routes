@@ -1,0 +1,50 @@
+.addressContainer {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.addressHeader {
+    font-size: 24px;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.addressForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formLabel {
+    font-size: 14px;
+    color: #004d40;
+    margin-bottom: 5px;
+}
+
+.formInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #004d40;
+}

@@ -1,0 +1,23 @@
+.wrapperContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapperHeader {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.black {
+  color: #000;
+}
